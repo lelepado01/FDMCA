@@ -1,0 +1,20 @@
+input[type="text"] {
+	background-color: #3cbc8d;
+	padding: 1%;
+	color: white;
+}
+
+input[type="submit"] {
+	background-color: #1d1f1e;
+	color: aliceblue;
+	width: 50%;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
+body {
+	background-color: aquamarine;
+}

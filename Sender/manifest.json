@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Sender Extension",
+	"version": "1.0",
+	"description": "This extension reads the currently playing track from the active spotify client and prints it in twitch chat",
+	"browser_action": {
+		"default_title": "Sender",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"page": "background.html"
+	},
+	"permissions": ["tabs", "https://*/", "storage"]
+}

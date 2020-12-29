@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Receiver Extension",
+	"version": "1.0",
+	"description": "This extension reads the sond ID printed in the twitch chat of a selected stream, and plays the song on an active spotify client",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"browser_action": {
+		"default_title": "Receiver",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["tabs"]
+}

@@ -1,11 +1,11 @@
 chrome.runtime.getBackgroundPage(function (bgWindow) {
 	if (bgWindow.isConnected()) {
-		document.getElementById("initial_form").remove();
 		document.getElementById("oauth_button").remove();
 
-		var p = document.createElement("p");
-		p.appendChild(document.createTextNode("Extension Running"));
-		document.body.appendChild(p);
+		var h4 = document.createElement("h4");
+		h4.className = "ui_text";
+		h4.appendChild(document.createTextNode("Extension Running"));
+		document.body.appendChild(h4);
 	}
 });
 

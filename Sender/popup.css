@@ -11,10 +11,10 @@ input[type="submit"] {
 	margin: auto;
 }
 
-p {
-	text-align: center;
-}
-
 body {
 	background-color: aquamarine;
+}
+
+.ui_text {
+	text-align: center;
 }
